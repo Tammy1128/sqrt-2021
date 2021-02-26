@@ -16,7 +16,7 @@ opt = docopt(__doc__)
 def main(number):
   number = int(number)
   print(math.sqrt(number))
-    
+  
 
 if __name__ == "__main__":
   main(opt["--n"])
